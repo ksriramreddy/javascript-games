@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    user-select: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: url('sudoku2.avif');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: -200px 10px;
+}
+h1{
+    text-align: center;
+}
+.board{
+    margin: 10px auto;
+    width: 497px;
+    height: 497px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-end;
+    justify-content: space-between;
+    border: 1px solid black;
+    /* gap: 2px; */
+    /* padding-left: 10px; */
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 52px;
+    height: 52px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    /* background-color: bisque; */     
+}
+.dark1{
+    border-bottom: 2px solid brown;
+}
+.dark2{
+    border-right: 2px solid brown;
+}
+.nums{
+    display: flex;
+    margin: 30px auto;
+    width: 500px;
+    font-size: 28px  ;
+    gap: 10px;
+}
+.number , .toggle{
+    width: 50px;
+    height: 45px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.buttons{
+    font-size: 30px;
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.selectedNum{
+    background-color:rgb(216, 218, 221);
+}
+.newGame{
+    width: 100px;
+    height: 40px;
+}
+.hint , .reset , .check{
+    width: 80px;
+    height: 40px;
+}
+.toggle{
+    background-color: rgb(138, 143, 147);
+}

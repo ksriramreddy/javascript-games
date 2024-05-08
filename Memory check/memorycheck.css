@@ -1,0 +1,44 @@
+body{
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+.board{
+    margin: 20px auto;
+    width: 500px;
+    height: 600px;
+    background-color:black;
+    border: 1px saddlebrown solid;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    width: 95px;
+    height: 145px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+img{
+    user-select: none;
+}
+.popup{
+    height:300px;
+    width: 700px;
+    background-color: aqua;
+    position:absolute;
+    top:25%;
+    left: 27%;
+    display: none;
+    background-image: url('mcimgs/gameOver.gif');
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 10px rgb(166, 166, 166);
+    font-size: 45px;
+}
+span{
+    position: relative;
+    top: 75%;
+    left: 30%;
+    color: black;
+}

@@ -1,0 +1,48 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url('https://cdn.dribbble.com/users/291221/screenshots/2661358/whac-a-mole.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.playground{
+    width: 520px;
+    height: 520px;
+    background-color: black;
+    margin: auto;
+    border-radius: 20px;
+    border: 2px solid wheat;
+    /* box-shadow: 1px 1px 10px 3px rgb(255, 255, 255); */
+    display: grid;
+    grid-template-columns: 160px 160px 160px;
+    row-gap: 4px;
+    background: url('soil.jpeg');
+    background-size: contain;
+    
+}
+.playground div{
+    height: 160px;
+    width: 160px;
+    background: url('tunnel.png');
+    /* height: 10px;
+    width: 10px; */
+    background-size:100px;
+    background-repeat: no-repeat;
+    background-position:bottom;
+
+    user-select: none;
+}
+.playground div img{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 6px;
+    cursor: pointer;
+}
+button{
+    width: 30px;
+    height: 30px;
+}

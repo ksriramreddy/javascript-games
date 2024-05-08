@@ -1,0 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+canvas{
+    border: 1px solid black;
+    
+}

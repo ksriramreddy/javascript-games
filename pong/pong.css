@@ -1,0 +1,10 @@
+body{
+    /* padding: 0;
+    margin: 0; */
+    text-align: center;
+}
+#board{
+    /* margin:5% 30%; */
+    border-top: 5px skyblue solid;
+    border-bottom: 5px skyblue solid;
+}
